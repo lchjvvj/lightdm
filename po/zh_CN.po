@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../greeters/gtk/lightdm-gtk-greeter.c:409
 msgid "Are you sure you want to close all programs and restart the computer?"
-msgstr "您确定要关闭所有程序并重新启动计算机？"
+msgstr "您确定要重新启动计算机？"
 
 #: ../greeters/gtk/greeter.ui.h:1
 msgid "Cancel"
@@ -32,7 +32,7 @@ msgstr "重启"
 #: ../greeters/gtk/lightdm-gtk-greeter.c:434
 msgid ""
 "Are you sure you want to close all programs and shutdown the computer?"
-msgstr "您确定要关闭所有程序并关闭计算机？"
+msgstr "您确定要关闭计算机？"
 
 #: ../greeters/gtk/lightdm-gtk-greeter.c:435
 msgid "Shutdown"
@@ -40,7 +40,7 @@ msgstr "关机"
 
 #: ../greeters/gtk/greeter.ui.h:4
 msgid "Large Font"
-msgstr "大字体"
+msgstr "大号字体"
 
 #: ../greeters/ldm-gtk-greeter.c:611
 msgid "High Constrast"
@@ -52,7 +52,7 @@ msgstr "选项"
 
 #: ../greeters/ldm-gtk-greeter.c:620
 msgid "Language"
-msgstr "Language/语言设定"
+msgstr "Language/语言设置"
 
 #: ../greeters/ldm-gtk-greeter.c:646
 msgid "Keyboard Layout"
@@ -104,6 +104,6 @@ msgstr ""
 "  -c, --config <file> 使用配置文件\n"
 "      --pid-file <file> 写入PID 到指定文件\n"
 "  -d, --debug 打印调试信息\n"
-"      --test-mode 以非特权用户身份运行\n"
+"      --test-mode 以非root用户身份运行\n"
 "  -v, --version 显示版本信息\n"
 "  -h, --help 显示帮助信息"
